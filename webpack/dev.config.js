@@ -84,6 +84,7 @@ module.exports = {
     devServer: {
         compress: true,
         contentBase: path.resolve(__dirname, '..', 'demo'),
+        hotOnly: true,
         clientLogLevel: 'none',
         quiet: false,
         open: true,
